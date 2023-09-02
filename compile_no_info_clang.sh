@@ -1,0 +1,10 @@
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/initial.cpp -o ./build/initial
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wReserve.cpp -o ./build/wReserve
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wEncode.cpp -o ./build/wEncode
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wCustomString.cpp -o ./build/wCustomString
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wModuleOpt.cpp -o ./build/wModuleOpt
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wLoopUnroll.cpp -o ./build/wLoopUnroll
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wToString.cpp -o ./build/wToString
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wToString2.cpp -o ./build/wToString2
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wToString3.cpp -o ./build/wToString3
+clang -O3 -Wall -Wextra -pedantic -lstdc++ ./src/wMultiThread.cpp -o ./build/wMultiThread
